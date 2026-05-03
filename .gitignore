@@ -1,0 +1,20 @@
+# installers
+*.exe
+*.msix
+
+# system
+.vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# datasets
+datasets/
+
+# local Python environments
+backend/venv/
+backend/.venv/
+
+# model outputs
+backend/models/*.joblib
+backend/models/*.h5

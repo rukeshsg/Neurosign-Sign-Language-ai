@@ -1,0 +1,44 @@
+name: sign_language_app
+description: NeuroSign, a premium mobile assistant for sign-language communication.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.3
+  dio: ^5.3.3
+  camera: ^0.10.5+5
+  flutter_tts: ^3.8.3
+  speech_to_text: ^7.3.0
+  shared_preferences: ^2.2.1
+  path_provider: ^2.1.1
+  google_fonts: ^6.1.0
+  flutter_spinkit: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/neurosign_app_icon.png"
+
+flutter_native_splash:
+  color: "#D1EADE"
+  image: "assets/images/neurosign_splash_logo.png"
+  android: true
+  ios: true

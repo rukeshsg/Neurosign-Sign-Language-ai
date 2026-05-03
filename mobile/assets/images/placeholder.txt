@@ -1,0 +1,1 @@
+Replace this placeholder with real image assets such as splash_logo.png before generating launcher or splash assets.

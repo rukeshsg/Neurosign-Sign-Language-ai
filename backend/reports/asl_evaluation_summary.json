@@ -1,0 +1,401 @@
+{
+  "total_samples": 28,
+  "exact_match_accuracy": 0.4286,
+  "detection_rate": 0.5,
+  "per_class": {
+    "A": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "B": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "C": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "D": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "E": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "F": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "G": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "H": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "I": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "J": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "K": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "L": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "M": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "N": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "nothing": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "O": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "P": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 1
+    },
+    "Q": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "R": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "S": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "space": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 1
+    },
+    "T": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "U": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "V": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "W": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "X": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    },
+    "Y": {
+      "total": 1,
+      "exact_matches": 1,
+      "detected_frames": 1
+    },
+    "Z": {
+      "total": 1,
+      "exact_matches": 0,
+      "detected_frames": 0
+    }
+  },
+  "rows": [
+    {
+      "file_name": "A_test.jpg",
+      "expected_label": "A",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "B_test.jpg",
+      "expected_label": "B",
+      "predicted_text": "B",
+      "status": "new_prediction",
+      "confidence": 0.95,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "C_test.jpg",
+      "expected_label": "C",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "D_test.jpg",
+      "expected_label": "D",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "E_test.jpg",
+      "expected_label": "E",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "F_test.jpg",
+      "expected_label": "F",
+      "predicted_text": "F",
+      "status": "new_prediction",
+      "confidence": 0.99,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "G_test.jpg",
+      "expected_label": "G",
+      "predicted_text": "G",
+      "status": "new_prediction",
+      "confidence": 0.97,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "H_test.jpg",
+      "expected_label": "H",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "I_test.jpg",
+      "expected_label": "I",
+      "predicted_text": "I",
+      "status": "new_prediction",
+      "confidence": 0.97,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "J_test.jpg",
+      "expected_label": "J",
+      "predicted_text": "J",
+      "status": "new_prediction",
+      "confidence": 0.98,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "K_test.jpg",
+      "expected_label": "K",
+      "predicted_text": "K",
+      "status": "new_prediction",
+      "confidence": 0.8,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "L_test.jpg",
+      "expected_label": "L",
+      "predicted_text": "L",
+      "status": "new_prediction",
+      "confidence": 0.99,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "M_test.jpg",
+      "expected_label": "M",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "N_test.jpg",
+      "expected_label": "N",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "nothing_test.jpg",
+      "expected_label": "nothing",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "O_test.jpg",
+      "expected_label": "O",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "P_test.jpg",
+      "expected_label": "P",
+      "predicted_text": "Q",
+      "status": "new_prediction",
+      "confidence": 0.99,
+      "exact_match": false,
+      "hand_detected": true
+    },
+    {
+      "file_name": "Q_test.jpg",
+      "expected_label": "Q",
+      "predicted_text": "Q",
+      "status": "new_prediction",
+      "confidence": 0.96,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "R_test.jpg",
+      "expected_label": "R",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "S_test.jpg",
+      "expected_label": "S",
+      "predicted_text": "S",
+      "status": "new_prediction",
+      "confidence": 0.97,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "space_test.jpg",
+      "expected_label": "space",
+      "predicted_text": "",
+      "status": "low_confidence",
+      "confidence": 0.45,
+      "exact_match": false,
+      "hand_detected": true
+    },
+    {
+      "file_name": "T_test.jpg",
+      "expected_label": "T",
+      "predicted_text": "T",
+      "status": "new_prediction",
+      "confidence": 0.87,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "U_test.jpg",
+      "expected_label": "U",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "V_test.jpg",
+      "expected_label": "V",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "W_test.jpg",
+      "expected_label": "W",
+      "predicted_text": "W",
+      "status": "new_prediction",
+      "confidence": 0.86,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "X_test.jpg",
+      "expected_label": "X",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    },
+    {
+      "file_name": "Y_test.jpg",
+      "expected_label": "Y",
+      "predicted_text": "Y",
+      "status": "new_prediction",
+      "confidence": 0.96,
+      "exact_match": true,
+      "hand_detected": true
+    },
+    {
+      "file_name": "Z_test.jpg",
+      "expected_label": "Z",
+      "predicted_text": "",
+      "status": "no_hand",
+      "confidence": 0.0,
+      "exact_match": false,
+      "hand_detected": false
+    }
+  ]
+}
