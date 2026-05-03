@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NeuroSign
 
 NeuroSign is a mobile-first sign-language communication product with a Flutter client and a FastAPI backend. It supports live sign recognition, sign-to-text, sign-to-speech, text-to-sign, speech-to-text, conversation history, beginner learning, and local ML training/evaluation workflows.
@@ -159,3 +160,7 @@ POST /api/v1/text-to-sign
 - Dynamic WLASL performance depends heavily on how many classes and videos you choose to train; the baseline pipeline is intentionally lightweight.
 - Mobile launcher and splash image generation still need real PNG assets in `mobile/assets/`.
 - The committed `backend/venv` is machine-specific and should not be reused.
+=======
+# Neurosign-Sign-Language-ai
+AI-powered Sign Language to Text &amp; Speech Communication System using Computer Vision and Deep Learning
+>>>>>>> 8801176541974f7d6c82447686b16baf65196a5c
