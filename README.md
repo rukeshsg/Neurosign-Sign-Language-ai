@@ -66,10 +66,6 @@ The project consists of a FastAPI backend, a Flutter mobile application, and cus
 
 ## Project Structure
 
-```powershell
-python scripts\train_asl.py --max-samples-per-class 80
-
-
 ```text
 NeuroSign/
 │
