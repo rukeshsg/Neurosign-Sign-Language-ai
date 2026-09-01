@@ -68,23 +68,20 @@ The project consists of a FastAPI backend, a Flutter mobile application, and cus
 
 ```text
 NeuroSign/
-│
-├── backend/
-│   ├── app/
-│   ├── models/
-│   ├── scripts/
-│   ├── tests/
-│   └── requirements.txt
-│
-├── datasets/
-│   ├── ASL_Alphabet/
-│   └── WLASL/
-│
-├── docs/
-│
-├── mobile/
-│
-└── README.md
+|- backend/                  FastAPI API, model code, training script, tests
+|  |- app/
+|  |  |- api/                HTTP routes
+|  |  |- core/               Configuration and path resolution
+|  |  |- ml/                 Dataset loading helpers
+|  |  `- services/           MediaPipe and model inference services
+|  |- models/                Trained static classifier artifacts
+|  |- scripts/               Model training entry point
+|  `- tests/                 API tests
+|- datasets/
+|  |- ASL_Alphabet_dataset/  Static alphabet dataset
+|  `- WLASL_dataset/         Word-level sign video vocabulary
+|- docs/                     PRD, UX, and tech stack notes
+`- mobile/                   Flutter application
 ```
 
 ---
